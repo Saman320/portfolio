@@ -12,8 +12,8 @@ const Project = () => {
                             My Projects
                         </h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-900 font-semibold">
-                            "I take pride in delivering high-quality, user-focused projects. My recent work showcases
-                            a blend of innovation and functionality, tailored to meet client needs in a dynamic digital landscape."
+                        I take pride in delivering high-quality, user-focused projects. My recent work showcases
+                            a blend of innovation and functionality, tailored to meet client needs in a dynamic digital landscape.
                         </p>
                     </div>
                     <div className="grid gap-10 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">

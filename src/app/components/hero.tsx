@@ -37,7 +37,7 @@ const Hero = () => {
                     </h1>
                     <div className="w-[100px] h-[2px] bg-green-900 mb-4"></div>
                     <p className="mb-8 leading-relaxed text-base sm:text-lg md:text-xl">
-                        I'm a web development and AI expert with a passion for creating innovative
+                        I am a web development and AI expert with a passion for creating innovative
                         and user-friendly solutions. With over 5 years of experience in the tech industry,
                         I have had the opportunity to work on various projects that have helped me hone my
                         skills and stay up to date with the latest trends.

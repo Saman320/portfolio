@@ -1,4 +1,3 @@
-import exp from "constants";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,7 +24,7 @@ const About = () => {
 </h1>
       <p className="mb-8 leading-relaxed">
       Aspiring full-stack web developer with a solid foundation in web development technologies and a year of
-            dedicated learning experience. With a Bachelor's degree in Commerce, I bring a unique blend of business
+            dedicated learning experience. With a Bachelors degree in Commerce, I bring a unique blend of business
             acumen and technical curiosity to my pursuits.
 
             While my journey is rooted in academic learning and exploration, I am deeply passionate about honing my
