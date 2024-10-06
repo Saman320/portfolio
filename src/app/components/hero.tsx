@@ -9,18 +9,21 @@ const Hero = () => {
         <section className="text-gray-600 font-bold bg-cover bg-center custom-image bg-fixed">
             <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
                 
-                {/* Image Section (Reordered on smaller screens) */}
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex justify-center items-center mb-8 md:mb-0">
-                    <div className="ring-2 ring-green-700/50 outline-double outline-3 outline-offset-2 rounded-full aspect-square shadow-xl">
-                        <Image
-                            className="object-cover rounded-full"
-                            alt="Profile Picture"
-                            width={500}
-                            height={500}
-                            src={require("../../../public/assets/Picture/Capture.PNG")}
-                        />
-                    </div>
-                </div>
+               
+
+
+{/* Image Section */}
+<div className="lg:max-w-lg lg:w-full md:w-1/2 w-full flex justify-center items-center mb-8 md:mb-0">
+    <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px] ring-8 ring-green-900/50 outline-double outline-3 outline-offset-2 rounded-full overflow-hidden shadow-xl">
+        <Image
+            className="object-cover"
+            alt="Profile Picture"
+            fill
+            src={require("../../../public/assets/Picture/Capture.PNG")}
+        />
+    </div>
+</div>
+
 
                 {/* Text Section */}
                 <div className="lg:flex-grow md:w-1/2 lg:pl-16 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
@@ -36,7 +39,7 @@ const Hero = () => {
                         />
                     </h1>
                     <div className="w-[100px] h-[2px] bg-green-900 mb-4"></div>
-                    <p className="mb-8 leading-relaxed text-base sm:text-lg md:text-xl">
+                    <p className="mb-8 leading-relaxed text-base sm:text-lg md:text-xl text-gray-900">
                         I am a web development and AI expert with a passion for creating innovative
                         and user-friendly solutions. With over 5 years of experience in the tech industry,
                         I have had the opportunity to work on various projects that have helped me hone my
